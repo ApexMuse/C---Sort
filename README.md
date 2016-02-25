@@ -6,10 +6,13 @@ This was a college class assignment.
 Below is the mysort.h prototype
 
 #include <stdlib.h>
+
 #include <stdio.h>
 
 void generateNums(int *myarr);
+
 void sortNums(int *myarr);
+
 void verifyOrder(int *myarr);
 
 -- mysort.h must contain only the prototypes listed above
