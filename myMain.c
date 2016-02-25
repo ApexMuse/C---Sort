@@ -7,16 +7,16 @@
 
 #include <stdlib.h>
 #include <stdio.h>
-#include <stdbool.h>
-#include "genNums.c"
-#include "sortNums.c"
-#include "veriOrder.c"
 
-int myarr[100];
+#define max(x, y) (x > y ? x : y)
 
 int main(void) {
-	generateNums(myarr);
-	sortNums(myarr);
-	verifyOrder(myarr);
+	int num1, num2;
+	printf("\nEnter an integer: ");
+	scanf("%i", &num1);
+	printf("Enter another integer: ");
+	scanf("%i", &num2);
+	int largest = max(num1, num2);
+	printf("\nThe larger of the two integers is %i.\n\n", largest);
 	return 0;
 }
