@@ -5,9 +5,9 @@ This was a college class assignment.
 
 Below is the mysort.h prototype
 
-#include <stdlib.h>
+-- #include <stdlib.h>
 
-#include <stdio.h>
+-- include <stdio.h>
 
 void generateNums(int *myarr);
 
